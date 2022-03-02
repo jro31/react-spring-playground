@@ -1,5 +1,7 @@
+import FadeInTextLoop from './components/FadeInTextLoop';
+
 const App = () => {
-  return <div>Hello world!</div>;
+  return <FadeInTextLoop />;
 };
 
 export default App;
