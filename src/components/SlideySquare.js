@@ -1,12 +1,12 @@
-// See https://react-spring.io/common/props#loop-prop
+// See https://react-spring.io/common/props#the-loop-object
 
 import { useSpring, animated } from 'react-spring';
 
-const SpinnySquare = () => {
+const SlideySquare = () => {
   const styles = useSpring({
-    loop: true,
-    from: { rotateZ: 0 },
-    to: { rotateZ: 180 },
+    loop: { reverse: true },
+    from: { x: 0 },
+    to: { x: 100 },
   });
 
   return (
@@ -14,7 +14,6 @@ const SpinnySquare = () => {
       style={{
         width: 80,
         height: 80,
-        marginTop: '15px',
         backgroundColor: '#46e891',
         borderRadius: 16,
         ...styles,
@@ -23,4 +22,4 @@ const SpinnySquare = () => {
   );
 };
 
-export default SpinnySquare;
+export default SlideySquare;

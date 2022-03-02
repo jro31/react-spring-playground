@@ -1,7 +1,9 @@
 import { Fragment } from 'react';
+
 import CountUpAndDown from './components/CountUpAndDown';
 import FadeInTextLoop from './components/FadeInTextLoop';
 import ScrollingWords from './components/ScrollingWords';
+import SlideySquare from './components/SlideySquare';
 import SpinnySquare from './components/SpinnySquare';
 
 const App = () => {
@@ -11,6 +13,7 @@ const App = () => {
       <CountUpAndDown />
       <ScrollingWords />
       <SpinnySquare />
+      <SlideySquare />
     </Fragment>
   );
 };

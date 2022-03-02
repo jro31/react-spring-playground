@@ -1,3 +1,5 @@
+// See https://react-spring.io/basics#do-not-think-of-the-values-you-pass-as-styles-per-se
+
 import { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 
