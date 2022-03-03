@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import ClickyDiv from './components/ClickyDiv';
 
 import CountUpAndDown from './components/CountUpAndDown';
 import FadeInTextLoop from './components/FadeInTextLoop';
@@ -16,6 +17,7 @@ const App = () => {
       <SpinnySquare />
       <SlideySquare />
       <LoadingBar />
+      <ClickyDiv />
     </Fragment>
   );
 };
